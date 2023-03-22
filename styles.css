@@ -1,0 +1,754 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f8 !important;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/*========= small horizontal nav bar ===========*/
+.menu-two{
+    width: 105px;
+    height: 1700px;
+    background-color: #4e73df;
+    display: inline-block;
+    justify-items: center;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
+}
+.rough{
+    width: auto;
+    height: 20px;
+}
+.menu-two .emoiji{
+    color: #fff;
+    justify-items: center;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px !important;
+}
+.menu-two h1{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    display:none;
+}
+.menu-two h1 i{
+    font-size: 35px;
+    margin-top: 20px;
+    color: #fff !important;
+}
+.menu-two h1 sup{
+    font-size: 10px;
+}
+.menu-two hr{
+    width: 70px;
+    margin-left: 15px !important;
+    color: #FFF !important;
+    margin-top: 10px;
+}
+.menu-two .icon{
+    color: #c0c7ee !important;
+    display: block !important;
+    margin-right: 5px !important;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+.menu-two ul{
+    list-style-type: none;
+    
+}
+.menu-two ul li{
+    /* padding: 10px; */
+}
+.menu-two ul li a {
+    font-size: 12px;
+    text-decoration: none;
+    padding: 5px;
+    color: #f8f9fc;
+    margin-bottom: 10px;
+}
+.menu-two h4{
+    font-size: 10px;
+    color: #c0c7ee;
+    margin-top: 10px;
+}
+.menu-two .arrow{
+    border-radius: 80% !important;
+    border: 1px solid #c0c7ee !important;
+    background-color: #c0c7ee !important;
+    justify-items: center !important;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+
+}
+
+/* checking */
+*{
+    margin: 0;
+    padding: 0;
+}
+/*========= full horizontal nav bar ===========*/
+.menu{
+    width: 235px;
+    height: 1700px;
+    background-color: #4e73df;
+    display: inline-block;
+    display: none;
+    position: absolute;
+    z-index: 1;
+
+}
+.menu h1{
+    font-size: 22px;
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+}
+h1 i{
+    font-size: 35px;
+    margin-top: 20px;
+    color: #fff !important;
+}
+.menu h1 sup{
+    font-size: 10px;
+}
+.menu hr{
+    width: 190px;
+    margin-left: 15px !important;
+    color: #c0c7ee !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px;
+}
+.menu ul{
+  list-style-type: none;
+  
+}
+.menu ul li{
+  padding: 10px;
+}
+.menu ul li a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  color: #f8f9fc;
+  margin-bottom: 10px;
+}
+.menu h4{
+  font-size: 10px;
+  color: #c0c7ee;
+  margin-left: 15px !important;
+  padding: 10px 0 10px 0;
+}
+.menu .dropdown , .dropdown2 ,.dropdown3 {
+  width: 180px;
+  height: auto;
+  background-color: #FFF;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  text-indent: 5px;
+  margin-left: 20px;
+  display: none;
+  color: #000;
+}
+.menu .icon{
+  margin-right: 5px;
+  font-size: 15px;
+}
+.menu .dropdown-icon , .dropdown-icon2 ,.dropdown-icon3{
+  color: #fff;
+  background-color: #4e73df;
+  border: none;
+  float: right;
+  margin-right: 10px;
+}
+.menu .dropdown  li a {
+  font-size: 14px;
+  text-decoration: none;
+  width: 120px !important;
+  color: #000 !important;
+  margin-top: 10px;
+}
+.menu .dropdown  li a:hover{
+  background-color: #E3E2FC;
+  padding: 10px 90px 5px 10px;
+}
+.menu .dropdown2 li a:hover{
+    background-color: #E3E2FC;
+    padding: 10px 80px 5px 10px;
+
+}
+.menu .dropdown3 li a:hover{
+    background-color: #E3E2FC;
+    padding: 10px 80px 5px 10px;
+
+}
+.menu .dropdown2  li a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  color: #000 !important;
+
+}
+.menu .dropdown3  li a {
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px;
+  color: #000 !important;
+}
+.menu .dropdown p{
+  font-size: 13px;
+  margin-top: 10px;
+  color: #c0c7ee;
+}
+.menu .dropdown2 p{
+  font-size: 13px;
+  margin-top: 10px;
+  color: #c0c7ee;
+}
+.menu .dropdown3 p{
+  font-size: 13px;
+  margin-top: 10px;
+  color: #c0c7ee;
+}
+.menu .icon{
+  color: #c0c7ee;
+}
+.open{
+    border-radius: 80% !important;
+    border: 1px solid #c0c7ee !important;
+    background-color: #c0c7ee !important;
+    justify-items: center !important;
+    margin-left: 40%;
+    margin-top: 15px;
+    font-size: 17px;
+    color: #fff;
+    padding: 5px 10px 5px 10px;
+}
+
+
+/* bar for the toggle */
+.toggle{
+    background-color: #fff;
+    border: 1px solid transparent;
+    display: none;
+}
+.toggle:hover{
+    color: black;
+}
+.bar{
+    font-size: 25px;
+    padding: 15px;
+    color: #4e73df;
+
+}
+
+/* vertical nav bar of the page  */
+.container{
+    display: inline-block !important;
+    margin-left: 105px !important;
+    height: 65px;
+    width: 1244px;
+    position: relative;
+    background-color: white !important;
+}
+.container .noti{
+    margin-top: 20px;
+    margin-left: 520px;
+    color: #c0c7ee;
+    margin-right: 15px;
+}
+.container .search-bar{
+    width: 350px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #f8f9fc;
+    background-color: #f8f9fc;
+    margin-left: 10px;
+    color: #c0c7ee;
+    font-size: 15px;
+    margin-top: 5px;
+}
+.container .fa-magnifying-glass{
+    padding: 9px ;
+    background-color: #5074d2;
+    margin-right: 5px;
+    color: #fff;
+    border: 1px solid #5074d2;
+    border-radius: 5px 5px 5px 0;
+    margin-bottom: 0;
+}
+.fa-magnifying-glass:hover{
+    background-color: #4e73df;
+}
+.container .not{
+    margin-right: 20px;
+    color: #c0c7ee;
+
+}
+.container .my-name{
+    display: inline-block;
+    float: right;
+    padding: 0 0 0 20px;
+    border-left: 1px solid #c0c7ee ;
+    font-size: 18px !important;
+    color: #D3D3D3;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.mypic{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 5px;
+}
+/* vertical nav bar ends here */
+
+
+/* content of the page */
+.content{
+    /* background-color: #4e73df; */
+    width: 1238px;
+    height: auto;
+    margin-left: 110px;
+}
+.content h1 {
+    color: #332F2E;
+    font-size: 27px;
+    padding: 10px 0 0 10px;
+    display: inline-block;
+}
+.das-button{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 5px 7px;
+    color: #fff;
+    background-color: #4e73df;
+    border: 1px solid #4e73df;
+}
+.fa-download{
+    color: #c0c7ee;
+
+}
+  /* styling the boxex of the dashboard */
+.box{
+    width: 280px;
+    height: 100px;
+    background-color: #ffff;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-left: 4px solid #4e73df;
+    border-radius: 5px;
+    margin-left: 120px;
+    display: inline-block;
+}
+.text , .font-icon{
+    display: inline-block;
+}
+.head{
+    padding: 20px 0 0px 20px;
+}
+.price{
+    padding: 5px 0 5px 20px;
+    font-size: 23px;
+}
+.fa-briefcase{
+    font-size: 40px;
+    margin-left: 20px;
+    color: #c0c7ee;
+}
+.box2{
+    width: 280px;
+    height: 100px;
+    background-color: #ffff;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-left: 4px solid green ;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.box3{
+    width: 280px;
+    height: 100px;
+    background-color: #ffff;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-left: 4px solid #36b9cc ;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.box4{
+    width: 280px;
+    height: 100px;
+    background-color: #ffff;
+    margin-left: 10px;
+    margin-top: 20px;
+    border-left: 4px solid #f6c23e ;
+    border-radius: 5px;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* data of the dashboard */
+.scale{
+    margin-left: 120px;
+    margin-top: 20px;
+    display: inline-block;
+    width: 750px;
+}
+.circle{
+    margin-left: 30px;
+    width: 400px;
+}
+.dash-color{
+    margin-left: 120px;
+    width: 500px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.color-code{
+    margin-top: 20px;
+}
+.dashtext{
+    display: inline-block;
+    float: right;
+    width: 450px;
+    bottom: 0;
+    margin-right: 200px;
+    margin-top: 20px;
+}
+
+/* dashboard page ends here */
+
+
+/* button page starts from here */
+
+.circle-buttons{
+    width: 530px;
+    height: 500px;
+    background-color: #fff;
+    margin-left: 120px;
+    border: 1px solid #f8f9fc;
+    margin-top: 30px;
+    text-indent: 10px;
+    display: inline-block;
+}
+.circle-buttons h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #4e73df;
+    font-size: 17px'
+}
+.circle-buttons p{
+    color: #666C78;
+    text-indent: 15px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.circle-buttons .sizes{
+    color: red;
+    font-size: 16px;
+}
+.button1{
+    margin-top: 20px;
+}
+.Split-Buttons-with-Icon{
+    width: 530px;
+    height: auto;
+    background-color: #fff;
+    border: 1px solid #f8f9fc;
+    margin-top: 30px;
+    text-indent: 10px;
+    display: inline-block;
+    float: right;
+    margin-right: 120px;
+
+
+}
+.Split-Buttons-with-Icon h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #4e73df;
+    font-size: 17px;
+}
+.Split-Buttons-with-Icon p{
+    color: #666C78;
+    text-indent: 15px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.split-button{
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+.brand-buttons{
+    margin-left: 120px;
+    margin-top: 10px;
+}
+
+/* button page ends from here */
+
+/* cards page starts from here */
+/* card1 */
+.card{
+    width: 530px;
+    height: 160px;
+    background-color: #fff;
+    margin-left: 120px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.card p{
+    color: #666C78;
+    text-indent: 14px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.card h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #666C78;
+    font-size: 17px;
+}
+/* card2 */
+.card2{
+    width: 530px;
+    height: 160px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.card2 p{
+    color: #666C78;
+    text-indent: 14px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.card2 h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #4e73df;
+    font-size: 17px;
+}
+/* card3 */
+.card3{
+    width: 530px;
+    height: 160px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
+    margin-left: 120px;
+}
+.card3 p{
+    color: #666C78;
+    text-indent: 14px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.card3 h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #4e73df;
+    font-size: 17px;
+}
+/* card4 */
+.card4{
+    width: 530px;
+    height: 160px;
+    background-color: #fff;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.card4 p{
+    color: #666C78;
+    text-indent: 14px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.card4 h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #4e73df;
+    font-size: 17px;
+}
+
+/* color page starts from here */
+.color-para{
+    margin-left: 140;
+    color: #332F2E;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.custom-text-color{
+    margin-left: 120px;
+    background-color: #fff;
+    width: 350px;
+    border: 1px solid #D3D3D3;
+    height: auto;
+    margin-top: 20px;
+    display: inline-block;
+    float: left;
+}
+.custom-text-color h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #4e73df;
+    font-size: 16px;
+    border-bottom: 1px solid #D3D3D3;
+}
+.inside-color{
+    width: 300px;
+    height: auto;
+    background-color: #332F2E;
+    color: #fff;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.custom-text-color .inside-color  p{
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+}
+.custom-text-color p{
+    font-size: 15px;
+    padding: 10px 0 10px 0;
+    margin-top: 20px;
+    margin-left: 20px;
+
+}
+.inside-color-white{
+    width: 300px;
+    height: auto;
+    background-color: #fff;
+    color: #000;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.Custom-Background-Gradient-Utilities{
+    background-color: #fff;
+    width: 350px;
+    border: 1px solid #D3D3D3;
+    height: auto;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.Custom-Background-Gradient-Utilities h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #4e73df;
+    font-size: 16px;
+    border-bottom: 1px solid #D3D3D3;
+}
+.color-box{
+    width: 300px;
+    height: 120px;
+    background-color: #332F2E;
+    color: #fff;
+    margin-left: 25px;
+    text-align: left;
+}
+.color-box p{
+    padding: 40px 0 0 10px;
+    font-size: 17px;
+}
+.big-box{
+    width: 300px;
+    height: auto;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Custom-Grayscale-Background-Utilities{
+    background-color: #fff;
+    width: 350px;
+    border: 1px solid #D3D3D3;
+    height: auto;
+    margin-top: 20px;
+    display: inline-block;
+    float: right;
+    margin-right: 140px;
+}
+.Custom-Grayscale-Background-Utilities h3{
+    background-color: #f8f9fc;
+    padding: 10px;
+    color: #4e73df;
+    font-size: 16px;
+    border-bottom: 1px solid #D3D3D3;
+}
+.Custom-Grayscale-Background-Utilities .big-boxy{
+    width: 300px;
+    height: auto;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.Custom-Grayscale-Background-Utilities .big-boxy .color-boxy{
+    width: 300px;
+    height: 60px !important;
+    background-color: #332F2E;
+    color: #fff;
+    margin-left: 25px;
+    text-align: left;
+
+}
+.Custom-Grayscale-Background-Utilities .big-boxy .color-boxy p{
+    padding: 20px 0 0 10px;
+    font-size: 17px;
+
+}
+
+/* border page starts from here */
+.border{
+    margin-left: 120px;
+     width: 560px;
+     height: 95px;
+     background-color: #fff;
+     border-left: 4px solid  #4e73df;
+     border-radius: 5px;
+     margin-top: 20px;
+     display: inline-block;
+}
+.border p{
+    padding: 30px 0 0  20px;
+}
+.border-bottom{
+     width: 560px;
+     height: 95px;
+     background-color: #fff;
+     border-bottom: 4px solid  #4e73df;
+     border-radius: 5px;
+     margin-top: 20px;
+     float: right;
+     display: inline-block;
+     margin-right: 80px;
+
+}
+.border-bottom p{
+    padding: 30px 0 0  20px;
+}
+
+/* animation aoge starts from here */
+.animation{
+    margin-top: 30px;
+    margin-left: 120px;
+}
+
+
+
+
+
+
+
+
